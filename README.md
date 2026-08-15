@@ -1,27 +1,49 @@
-# 📦 Amazon Sales SQL Analysis
+<div align="center">
 
-![SQL](https://img.shields.io/badge/Language-SQL-blue)
-![Database](https://img.shields.io/badge/Database-PostgreSQL-blue)
-![Tool](https://img.shields.io/badge/Tool-DBeaver-orange)
+# 🛒 Amazon Sales SQL Analysis
 
-## Описание проекта
-Комплексный исследовательский анализ данных (EDA) и расчет ключевых бизнес-метрик для e-Commerce на основе транзакций интернет-магазина Amazon (100 000 записей). 
+`DATA ANALYSIS · SQL · POSTGRESQL · EDA`
 
-Проект направлен на выявление точек роста продаж, анализ логистических показателей, оценку поведения клиентов и проверку целостности данных.
+</div>
 
 ---
 
-## Технологический стек
-* **СУБД:** PostgreSQL 18
-* **Инструмент:** DBeaver
-* **Язык запросов:** ANSI SQL (Агрегатные функции, группировки, фильтрация, CASE-выражения)
+## / DESCRIPTION
+
+**RU**
+
+Комплексный исследовательский анализ данных (EDA) для e-commerce платформы на основе транзакционного датасета интернет-магазина Amazon.
+
+Проект охватывает полный цикл работы с данными: от проверки качества и целостности до построения бизнес-метрик и выявления ключевых инсайтов. Датасет содержит ~100 000 записей с информацией о заказах, клиентах, продуктах, географии и логистике.
+
+**Основные направления анализа:**
+- Проверка данных на пропуски, дубликаты и аномалии
+- Динамика продаж по месяцам и сезонность
+- Топ-категории, бренды и города по выручке
+- Анализ способов оплаты и статусов заказов
+- Клиентская аналитика: VIP-покупатели, повторные заказы, поведенческие паттерны
+
+**Навыки:** SQL · агрегатные функции · оконные функции · CTE · группировки · CASE-выражения · подзапросы
 
 ---
 
-## Ключевые инсайты и результаты
+**EN**
 
-* **Качество данных:** В ходе анализа не обнаружено критических дубликатов по парным ключам `OrderID` + `ProductID`. 
-* **Динамика продаж:** Общая суммарная выручка составила **$X,XXX,XXX**, при этом средний чек держится на уровне **$XX**.
-* **Категории-лидеры:** Топ-1 по объему выручки занимает категория **[Название]**, приносящая **XX%** от общего дохода.
-* **Логистика и статус заказов:** Доля успешно доставленных заказов составляет **XX%**, а процент отмен и возвратов находится в пределах нормативных **XX%**.
+Comprehensive Exploratory Data Analysis (EDA) for an e-commerce platform based on Amazon transaction dataset.
 
+The project covers the full data workflow: from quality assessment and integrity checks to business metrics calculation and key insights discovery. The dataset contains ~100,000 records with orders, customers, products, geography, and logistics information.
+
+**Key analysis areas:**
+- Data validation: nulls, duplicates, anomalies
+- Monthly sales dynamics and seasonality
+- Top categories, brands, and cities by revenue
+- Payment methods and order status analysis
+- Customer analytics: VIP buyers, repeat purchases, behavioral patterns
+
+**Skills:** SQL · aggregate functions · window functions · CTE · grouping · CASE expressions · subqueries
+
+---
+
+## / DATASET
+
+**Source:** [Kaggle - Amazon Sales Dataset](https://www.kaggle.com/datasets/rohiteng/amazon-sales-dataset)
